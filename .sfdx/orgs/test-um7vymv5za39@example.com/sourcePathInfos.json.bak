@@ -1,0 +1,735 @@
+[
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520560889000,
+            "changeTime": 1520560889000,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520560889000,
+            "changeTime": 1520560889000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382285,
+            "changeTime": 1520577382285,
+            "contentHash": "9324de7d796551dd0000a055607ddc547a2fe2e2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520560889000,
+            "changeTime": 1520560889000,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520561525962,
+            "changeTime": 1520561525962,
+            "contentHash": "829e604d4e7d5aae25f04d899b0bc5eccc598817",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\ExpressionParser.cls-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\ExpressionParser.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1520561580540,
+            "changeTime": 1520561580540,
+            "contentHash": "5690448073e1f4fad2748afd55cc064a162b59a5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\ExpressionParser.cls",
+        {
+            "state": "u",
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\ExpressionParser.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4864,
+            "modifiedTime": 1520588282904,
+            "changeTime": 1520588282904,
+            "isWorkspace": false,
+            "contentHash": "ff83be55fe1e3bddcdb532c59f74d0a45594856a"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520567139171,
+            "changeTime": 1520567139171,
+            "contentHash": "822cb4eabd4462b68762f535783283a3c5478e2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\globalValueSets\\CompareOption.globalValueSet-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\globalValueSets\\CompareOption.globalValueSet-meta.xml",
+            "isDirectory": false,
+            "size": 578,
+            "modifiedTime": 1520577382164,
+            "changeTime": 1520577382164,
+            "contentHash": "58473aed64e9e1553c1b2a8aae2751c91d938234",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\ConditionRule__c.object-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\ConditionRule__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2152,
+            "modifiedTime": 1520577382205,
+            "changeTime": 1520577382205,
+            "contentHash": "d41c48773a2c1a5774669ba8f48037de848a6941",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_1__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_1__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577859746,
+            "changeTime": 1520577859747,
+            "contentHash": "87d17b9c7c4a9527085c035a76cf1345041c5455",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_1__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_1__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520577382234,
+            "changeTime": 1520577382234,
+            "contentHash": "754baa1ad6a594a45d854cd992fd7e7cb7714242",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\SObjectType__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\SObjectType__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1520577382247,
+            "changeTime": 1520577382247,
+            "contentHash": "abafa1fc5c5bf11c4d2faaf1584ffbe5666d11d4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_1__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_1__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577382257,
+            "changeTime": 1520577382257,
+            "contentHash": "9eb1b7b8cf7ec8379fde9995371ca82024be587f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\layouts\\ConditionRule__c-ConditionRule Layout.layout-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\layouts\\ConditionRule__c-ConditionRule Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 2635,
+            "modifiedTime": 1520583455243,
+            "changeTime": 1520583455243,
+            "contentHash": "cab06ad1c48eab3b237c3a739ef01f052581ecce",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\tabs\\ConditionRule__c.tab-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\tabs\\ConditionRule__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 221,
+            "modifiedTime": 1520577382276,
+            "changeTime": 1520577382276,
+            "contentHash": "d5e68e6ae458a0934d48998d2ced125ac79c7366",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 9428,
+            "modifiedTime": 1520583455285,
+            "changeTime": 1520583455285,
+            "contentHash": "b496a58ed82053fe063fc3cb91651b36e944edeb",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 22484,
+            "modifiedTime": 1520583455402,
+            "changeTime": 1520583455402,
+            "contentHash": "d3e46b1d3da41690ef1fa596f651f0a79e6073be",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 9090,
+            "modifiedTime": 1520583455428,
+            "changeTime": 1520583455428,
+            "contentHash": "b8a3ee1f5555400c046e66c46978458b5e0c7fc9",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 9090,
+            "modifiedTime": 1520583455461,
+            "changeTime": 1520583455461,
+            "contentHash": "b8a3ee1f5555400c046e66c46978458b5e0c7fc9",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\globalValueSets",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\globalValueSets",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382157,
+            "changeTime": 1520577382157,
+            "contentHash": "a85138fabfff3b9d64d43b6c7a34c12aa5dd0c8c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382206,
+            "changeTime": 1520577382206,
+            "contentHash": "56d9f9f03e4647e89ca26595bf6595980e15a8b8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382197,
+            "changeTime": 1520577382197,
+            "contentHash": "9a48cd5f327097d7079fb09ac15ab79547473221",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520583455211,
+            "changeTime": 1520583455211,
+            "contentHash": "b0adc669a2d6b50f7541ac34a0940dafdd27106a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\layouts",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382268,
+            "changeTime": 1520577382268,
+            "contentHash": "814da28158e145a39d22e25743ef072bbfeabf9c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\tabs",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382274,
+            "changeTime": 1520577382274,
+            "contentHash": "f083aeada0e5b041c370fb8e2c73292a55dab710",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520577382379,
+            "changeTime": 1520577382379,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_0__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_0__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577949928,
+            "changeTime": 1520577949928,
+            "contentHash": "ab6532edf2f1b318cd2558119f044df04ed20441",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_2__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_2__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577878179,
+            "changeTime": 1520577878179,
+            "contentHash": "47dedda1e297dd19bc1fcb428a3c36b93ceb1926",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_3__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_3__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577945945,
+            "changeTime": 1520577945945,
+            "contentHash": "8ea677b213aa0911eeff13a0bcbf944d5ae915f6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_4__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_4__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577929284,
+            "changeTime": 1520577929284,
+            "contentHash": "40d18cc52c245b0a2d59d871afb0346ffdaf2626",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_5__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_5__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577961267,
+            "changeTime": 1520577961267,
+            "contentHash": "b13a963a5c7eaa49cd6c8c6033bc601c82629cc2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_6__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_6__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577965319,
+            "changeTime": 1520577965319,
+            "contentHash": "b62cbe3eb39fbe1302aafbb80ddc79e9b2443dc7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_7__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Field_7__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520577970901,
+            "changeTime": 1520577970901,
+            "contentHash": "99b0294e74d946ad110be820ffdbb5c74ca5dca9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_0__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_0__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520577980304,
+            "changeTime": 1520577980304,
+            "contentHash": "91eda45ee0bd7f1620189e4a57d721b398512ead",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_2__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_2__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520577986802,
+            "changeTime": 1520577986802,
+            "contentHash": "4330efc84e54238ff2e29694635cdc2dbca3298a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_3__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_3__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520577991044,
+            "changeTime": 1520577991044,
+            "contentHash": "c6e06fa6d36b8df99031675ca0eee7dc570062a9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_4__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_4__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520577994768,
+            "changeTime": 1520577994768,
+            "contentHash": "a68fc6c6eaed76d5ce299daeb841411abb4206e3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_5__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_5__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520578001740,
+            "changeTime": 1520578001740,
+            "contentHash": "119b7a1add6d1a437a66ce38b6a43d8f3c40476e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_6__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_6__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520578008460,
+            "changeTime": 1520578008460,
+            "contentHash": "da6ffb1c764c7b94f7004ddddf5ce5e1c335c352",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_7__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Option_7__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 434,
+            "modifiedTime": 1520578014942,
+            "changeTime": 1520578014942,
+            "contentHash": "8a9ed4feaa60cde482485c7c8ad2901e5eecaeb2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_0__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_0__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578020294,
+            "changeTime": 1520578020294,
+            "contentHash": "f02ad04788f2de410013fff63e706d480d51f85c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_2__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_2__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578024667,
+            "changeTime": 1520578024667,
+            "contentHash": "a5bface4e4ca61fb8feab1b70006d4ec0d600bf4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_3__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_3__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578028866,
+            "changeTime": 1520578028866,
+            "contentHash": "9fb91d5ccc7b47f06a17a4246c49aceda02d1bed",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_4__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_4__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578032977,
+            "changeTime": 1520578032977,
+            "contentHash": "54a84e22c5a228625838591a808a82c008b924db",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_5__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_5__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578036607,
+            "changeTime": 1520578036607,
+            "contentHash": "2644d52a90bdb7fc7e3d6cb6a5edf2c5d31cf539",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_6__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_6__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578040758,
+            "changeTime": 1520578040758,
+            "contentHash": "d884ecd52eafccfd3413dd0dccf1970d2292017e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_7__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Value_7__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 360,
+            "modifiedTime": 1520578045147,
+            "changeTime": 1520578045148,
+            "contentHash": "61196f9f18a8373cfeae7753ca16197ee1f107a3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Logic__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Logic__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 356,
+            "modifiedTime": 1520583455210,
+            "changeTime": 1520583455210,
+            "contentHash": "8ae1cdc3b9eda3d9c827d6e1c783c4b4899da5de",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Size__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\Size__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1520583455219,
+            "changeTime": 1520583455219,
+            "contentHash": "851eb4468298463710f8dd278190240cad37f3db",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]
