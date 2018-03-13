@@ -35,13 +35,11 @@
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1520577382285,
-            "changeTime": 1520577382285,
-            "contentHash": "9324de7d796551dd0000a055607ddc547a2fe2e2",
+            "modifiedTime": 1520908470845,
+            "changeTime": 1520908470845,
+            "contentHash": "6a846cc7112a853234175374fffcac751cef6384",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -65,13 +63,12 @@
             "sourcePath": "d:\\sfdx\\ExpressionPasser",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1520561525962,
-            "changeTime": 1520561525962,
-            "contentHash": "829e604d4e7d5aae25f04d899b0bc5eccc598817",
+            "modifiedTime": 1520908248979,
+            "changeTime": 1520908248979,
+            "contentHash": "806ba1a6fdbf66cfb747163cfbc2797dba062b4e",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": true,
-            "isArtifactRoot": false
+            "isWorkspace": true
         }
     ],
     [
@@ -92,15 +89,16 @@
     [
         "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\ExpressionParser.cls",
         {
-            "state": "u",
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\ExpressionParser.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4865,
             "modifiedTime": 1520588384229,
             "changeTime": 1520588384231,
+            "contentHash": "fb13338836dc928347a5d09e26fe5a2af41c5551",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "fb13338836dc928347a5d09e26fe5a2af41c5551"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -109,13 +107,12 @@
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1520567139171,
-            "changeTime": 1520567139171,
-            "contentHash": "822cb4eabd4462b68762f535783283a3c5478e2f",
+            "modifiedTime": 1520929789889,
+            "changeTime": 1520929789889,
+            "contentHash": "d919eeddcdb73a9d13e429ef76e2b0f020e866b3",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -213,10 +210,10 @@
         {
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\layouts\\ConditionRule__c-ConditionRule Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 2635,
-            "modifiedTime": 1520583455243,
-            "changeTime": 1520583455243,
-            "contentHash": "cab06ad1c48eab3b237c3a739ef01f052581ecce",
+            "size": 6527,
+            "modifiedTime": 1520930148716,
+            "changeTime": 1520930148716,
+            "contentHash": "a346fd0005554e795fef5a0bae428a706ba3e401",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -241,10 +238,10 @@
         {
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 9428,
-            "modifiedTime": 1520583455285,
-            "changeTime": 1520583455285,
-            "contentHash": "b496a58ed82053fe063fc3cb91651b36e944edeb",
+            "size": 9879,
+            "modifiedTime": 1520930148926,
+            "changeTime": 1520930148926,
+            "contentHash": "3b4c08b0de06b7da9fbd4d4f1872e0df2218b2e7",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -254,10 +251,10 @@
         {
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 22484,
-            "modifiedTime": 1520583455402,
-            "changeTime": 1520583455402,
-            "contentHash": "d3e46b1d3da41690ef1fa596f651f0a79e6073be",
+            "size": 22892,
+            "modifiedTime": 1520930149336,
+            "changeTime": 1520930149336,
+            "contentHash": "d4f39be0baa8dbd6d6be451f1dfe3b49fa4fa751",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -267,10 +264,10 @@
         {
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 9090,
-            "modifiedTime": 1520583455428,
-            "changeTime": 1520583455428,
-            "contentHash": "b8a3ee1f5555400c046e66c46978458b5e0c7fc9",
+            "size": 9541,
+            "modifiedTime": 1520930149411,
+            "changeTime": 1520930149411,
+            "contentHash": "8927725b292cdb906d16813956527f8b8bd8dbe7",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -280,10 +277,10 @@
         {
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 9090,
-            "modifiedTime": 1520583455461,
-            "changeTime": 1520583455461,
-            "contentHash": "b8a3ee1f5555400c046e66c46978458b5e0c7fc9",
+            "size": 9541,
+            "modifiedTime": 1520930149519,
+            "changeTime": 1520930149519,
+            "contentHash": "8927725b292cdb906d16813956527f8b8bd8dbe7",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -339,9 +336,9 @@
             "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1520583455211,
-            "changeTime": 1520583455211,
-            "contentHash": "b0adc669a2d6b50f7541ac34a0940dafdd27106a",
+            "modifiedTime": 1520930148598,
+            "changeTime": 1520930148598,
+            "contentHash": "0b52c14834f9986f030513a2ea24e108d1339079",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -716,7 +713,9 @@
             "changeTime": 1520583455210,
             "contentHash": "8ae1cdc3b9eda3d9c827d6e1c783c4b4899da5de",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -728,6 +727,99 @@
             "modifiedTime": 1520583455219,
             "changeTime": 1520583455219,
             "contentHash": "851eb4468298463710f8dd278190240cad37f3db",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\pages\\AssignPage.page-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\pages\\AssignPage.page-meta.xml",
+            "isDirectory": false,
+            "size": 286,
+            "modifiedTime": 1520908470849,
+            "changeTime": 1520908470849,
+            "contentHash": "3824a1fce11cdfebff09202f39c4b1eea654f8e5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\pages\\AssignPage.page",
+        {
+            "state": "u",
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\pages\\AssignPage.page",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6320,
+            "modifiedTime": 1520933509856,
+            "changeTime": 1520933509856,
+            "contentHash": "2aeabee7ddc31df049fb478b7569c7edb8af7404"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\pages",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1520926740497,
+            "changeTime": 1520908470851,
+            "contentHash": "b76503efad630cdfc94b0137fe525c62147da254",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\AssignTo__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\AssignTo__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 453,
+            "modifiedTime": 1520930148592,
+            "changeTime": 1520930148592,
+            "contentHash": "83425948dcd25a573f4bc199d2bd7081052bbb22",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\AssignedCount__c.field-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\objects\\ConditionRule__c\\fields\\AssignedCount__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 435,
+            "modifiedTime": 1520930148614,
+            "changeTime": 1520930148614,
+            "contentHash": "9e7dffa2a361720888d66b271170194e06942e26",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\AssignPageController.cls",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\AssignPageController.cls",
+            "isDirectory": false,
+            "size": 1238,
+            "modifiedTime": 1520930779850,
+            "changeTime": 1520930513157,
+            "contentHash": "edd8378a8842fb4cfae1d00a28f74c5fa7e454e0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\AssignPageController.cls-meta.xml",
+        {
+            "sourcePath": "d:\\sfdx\\ExpressionPasser\\force-app\\main\\default\\classes\\AssignPageController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1520929789916,
+            "changeTime": 1520929789916,
+            "contentHash": "20c46bf3335f9247a4822b15a9033b211e939386",
             "isMetadataFile": true,
             "state": "u"
         }

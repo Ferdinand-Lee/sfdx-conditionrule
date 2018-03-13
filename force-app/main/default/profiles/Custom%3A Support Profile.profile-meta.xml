@@ -6,6 +6,16 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ConditionRule__c.AssignTo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConditionRule__c.AssignedCount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>ConditionRule__c.Field_0__c</field>
         <readable>false</readable>
@@ -143,6 +153,10 @@
     <layoutAssignments>
         <layout>ConditionRule__c-ConditionRule Layout</layout>
     </layoutAssignments>
+    <pageAccesses>
+        <apexPage>AssignPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

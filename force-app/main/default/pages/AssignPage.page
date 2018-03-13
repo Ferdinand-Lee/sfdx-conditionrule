@@ -1,0 +1,138 @@
+<apex:page showHeader="false" 
+           standardStylesheets="false" 
+           sidebar="false" 
+           applyHtmlTag="false" 
+           applyBodyTag="false" 
+           docType="html-5.0"
+           controller="AssignPageController">
+    <apex:slds />    
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">     
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>       
+    </head>
+    
+    <body>
+        <div id="app"></div>
+        <script type="text/x-template" id="app-cmp">
+          <div class="slds-scope">
+            <div class="demo-only" style="width: 440px;">
+              <div class="slds-form slds-form_compound">
+                <fieldset class="slds-form-element" v-for="(rule, $index) in rules" :key="$index">
+                  <div class="slds-form-element__group">
+                    <div class="slds-form-element__row">
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <label class="slds-form-element__label" :for="'country-'+$index">意向国家</label>
+                        <div class="slds-form-element__control">
+                          <div class="slds-select_container">
+                            <select class="slds-select" :id="'country-'+$index" v-model="rule.country">
+                              <option value="">请选择</option>
+                              <option value="AU">澳洲</option>
+                              <option value="NZL">新西兰</option>
+                              <option value="UK">英国</option>
+                              <option value="US">美国</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slds-form-element slds-size_1-of-2">
+                        <label class="slds-form-element__label" :for="'assignTo-'+$index">分配到</label>
+                        <div class="slds-form-element__control">
+                          <div class="slds-select_container">
+                            <select class="slds-select" :id="'assignTo-'+$index" v-model="rule.assignTo">
+                              <option value="">请选择</option>
+                              <option value="00511000005ROjc">User User</option>
+                              <option value="">Chirs</option>
+                              <option value="">Suzie</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                    
+                  </div>
+                </fieldset>
+              </div>
+              <button class="slds-button slds-button_neutral" @click="addRule">新建规则</button>
+              <button class="slds-button slds-button_neutral" @click="saveRule">保存规则</button>
+            </div>
+          </div>
+        </script>
+        <script>
+            var Verify = function (VueComponent) {
+                this.vm = VueComponent;
+                this.verifyQueue = {};                        //验证队列
+                Vue.util.defineReactive(this, '$errors', []);
+            };
+            Vue.use(function (Vue, option) {
+                Vue.mixin({
+                    beforeCreate: function () {
+                        this.$verify = new Verify(this);
+                    }
+                })
+            })            
+            var app = new Vue({
+                el: '#app',
+                template: '#app-cmp',
+                data: {
+                  rules: [],
+                  showForm: true
+                },
+                mounted: function(){                  
+                  this.$nextTick(function () {
+                    var that = this;
+                    AssignPageController.init(function (params) {
+                      params.rules.forEach(function(rule, index){                        
+                        for(var i = 0; i < rule.Size__c; i++){
+                          that.rules.push({
+                            id: rule.Id,
+                            country: rule['Value_' + i + '__c'],
+                            assignTo: rule.AssignTo__c.substr(0, 15)
+                          })
+                        }
+                      })
+                    })
+                  })
+                },
+                methods: {
+                    toggleForm: function () {
+                      this.showForm = true
+                    },
+                    addRule: function () {
+                      this.rules.push({
+                        country: '',
+                        assignTo: ''
+                      });
+                    },
+                    saveRule: function () {
+                      var userRules = {};
+                      this.rules.forEach(function(rule){
+                        userRules[rule.assignTo] = userRules[rule.assignTo] || [];
+                        userRules[rule.assignTo].push(rule);
+                      })
+                      var ConditionRules = [];                      
+                      Object.keys(userRules).forEach(function(key){
+                        var cr = {}, logic = [];                        
+                        userRules[key].forEach(function(rule, index){
+                          cr.AssignTo__c = rule.assignTo;
+                          if (rule.id) cr.Id = rule.id;
+                          cr['Field_' + index + '__c'] = 'Country';
+                          cr['Option_' + index + '__c'] = '=';
+                          cr['Value_' + index + '__c'] = rule.country;
+                          logic.push(index + 1);                         
+                        })
+                        cr.Size__c = logic.length;
+                        cr.Logic__c = logic.join(' OR ');                        
+                        ConditionRules.push(cr);
+                      })
+                      console.log(ConditionRules)
+                      AssignPageController.save(ConditionRules, function(){
+                        
+                      })
+                    }
+                }
+            })
+        </script>
+    </body>
+    </html>
+</apex:page>
