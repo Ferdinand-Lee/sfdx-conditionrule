@@ -85,7 +85,7 @@ public class ExpressionParser{
                 if(str == '(') {
 
                 }else if(str == ')'){
-                    if(size > 1) result.add(operatorStake.remove(size - 1));
+                    if(size > 0) result.add(operatorStake.remove(size - 1));
                 }else{
                     if(size == 0){
                         operatorStake.add(str);
