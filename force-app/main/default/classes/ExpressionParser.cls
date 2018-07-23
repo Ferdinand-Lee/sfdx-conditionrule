@@ -2,8 +2,8 @@ public class ExpressionParser{
     static final Map<String, Integer> priority = new Map<String, Integer>{
         '(' => 3,
         ')' => 3,
-        'OR' => 2,
-        'AND' => 1
+        'AND' => 2,
+        'OR' => 1
     };
 
     public static Boolean accept(SObject record, ConditionRule__c cr){
