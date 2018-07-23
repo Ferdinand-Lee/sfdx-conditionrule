@@ -93,7 +93,7 @@ public class ExpressionParser{
                         Integer top = priority.get(operatorStake[size - 1]);
                         Integer current = priority.get(str);
                         if(top > current){
-                            result.add(operatorStake.remove(size));
+                            result.add(operatorStake.remove(size - 1));
                             operatorStake.add(str);
                         }else{
                             operatorStake.add(str);
