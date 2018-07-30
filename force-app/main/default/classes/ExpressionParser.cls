@@ -70,7 +70,7 @@ public class ExpressionParser{
                 stake.add(str);
             }
         }        
-        return rules.get(stake.get(0));
+        return return stake.isEmpty() ? true : rules.get(stake.get(0));
     }
 
     public static List<String> getReversePolishNotation(String condition){
@@ -83,22 +83,26 @@ public class ExpressionParser{
             Integer size = operatorStake.size();
             if(priority.containsKey(str)){
                 if(str == '(') {
-
+					operatorStake.add(str);
                 }else if(str == ')'){
-                    if(size > 0) result.add(operatorStake.remove(size - 1));
+                   while(size > 0) {
+                       String temp = operatorStake.remove(--size);
+                       if(temp != '('){
+                           result.add(temp);                           
+                       }else{
+                           break;
+                       }
+                   }
                 }else{
-                    if(size == 0){
-                        operatorStake.add(str);
-                    }else{
-                        Integer top = priority.get(operatorStake[size - 1]);
+                    if(size > 0){
+                        String topOperator = operatorStake[size - 1];
+                        Integer top = priority.get(topOperator);
                         Integer current = priority.get(str);
-                        if(top > current){
-                            result.add(operatorStake.remove(size - 1));
-                            operatorStake.add(str);
-                        }else{
-                            operatorStake.add(str);
+                        if(topOperator <> '(' && top > current){
+                            result.add(operatorStake.remove(size - 1));                            
                         }
                     }
+                    operatorStake.add(str);
                 }
             }else{
                 result.add(str);
