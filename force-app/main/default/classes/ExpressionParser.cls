@@ -76,7 +76,7 @@ public class ExpressionParser{
     public static List<String> getReversePolishNotation(String condition){
         List<String> result = new List<String>();
         List<String> operatorStake = new List<String>();
-        Pattern logicPattern = Pattern.compile('\\d|(OR)|(AND)|\\(|\\)');
+        Pattern logicPattern = Pattern.compile('\\d+|(OR)|(AND)|\\(|\\)');
         Matcher logicMatcher= logicPattern.matcher(condition);
         while(logicMatcher.find()){
             String str = logicMatcher.group(0);
